@@ -1,0 +1,33 @@
+h1 {
+    color: dodgerblue;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;  /* default value */
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: peru;
+}
+
+.nav-item {
+    padding: 5px 10px;
+    background-color: seagreen;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    border: 5px solid peru;
+    background-color: #909090;
+}
